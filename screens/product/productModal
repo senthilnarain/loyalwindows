@@ -1,0 +1,230 @@
+<div class="modal-dialog" style="width:95%;height:90%;">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        
+        <div class="modal-header">
+          <button type="button" class="close rotateImg" data-dismiss="modal">×</button>
+          <h4><span><img src="images/product.png"></span>  PRODUCTS</h4>
+        </div>
+        <div class="modal-body" style="height:80%;overflow-y:auto;">
+          <div id="productScrollTopPosition">
+
+            <div class="row" id ="riceContent" style="display:none;">
+              <div class="col-md-12">
+                <div class="panel">
+                  <div class="panel-heading">BASMATI RICE</div>
+                  <div class="panel-body">
+                    <div class="col-md-5">
+                      <img src="images/basmati_rice.jpg" class="img-responsive" style="width:100%" alt="Image">
+                    </div>
+                    <div class="col-md-7">
+                      <article>
+                        <h1>Basmati Rice</h1>
+                        <p>Basmati Rice has always been one of the most popular products and highly recommended one too that we cater to a large network of clients. Our product has one of the finest long grains, rich taste, and excellent flavor. It quickly gets cooked and leaves you with an extraordinary aroma. Our customers can enjoy numerous delicacies prepared from our product at highly discounted prices.</p>
+                      </article>
+
+                      <p><strong>Note:</strong> We deal in both (Whole & Broken) Basmati Rice.</p>
+                    </div>
+
+                  </div>
+                  <div class="panel-footer"></div>
+                </div>
+
+                <div class="panel">
+                  <div class="panel-heading">NON-BASMATI RICE</div>
+                  <div class="panel-body">
+                    <div class="col-md-5">
+                      <img src="images/rice3.jpg" class="img-responsive" style="width:100%" alt="Image">
+                    </div>
+                    <div class="col-md-7">
+                      <article>
+                        <h1>Non-Basmati Rice</h1>
+                        <p>Prepare different delicacies with our qualitative range of Non Basmati Rice. With absolutely no impurities or adulterants, our product is extremely popular amongst our valuable customers. Utilizing advanced methods we check the quality of our product on multiple parameters and then give them moisture proof packaging that enhances the shelf life and retains the original quality, taste, and aroma.</p>
+                      </article>
+
+                      <p><strong>Note:</strong> We deal in both (Whole & Broken) Non Basmati Rice.</p>
+                    </div>
+
+                  </div>
+                  <div class="panel-footer"></div>
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="row" id ="spicesContent" style="display:none;">
+              <div class="col-md-12">
+                
+                <div class="panel">
+                  <div class="panel-heading">DRIED RED CHILLI</div>
+                  <div class="panel-body">
+                    <div class="col-md-5">
+                      <img src="images/redChilli.jpg" class="img-responsive" style="width:100%" alt="Image">
+                    </div>
+                    <div class="col-md-7">
+                      <article>
+                        <h1>DRIED RED CHILLI</h1>
+                        <p>To deliver the utmost product range in terms of quality, we do strict quality checks before the dispatch. For the utmost customer satisfaction, we are flexible in delivering the product range at the place agreed by the customers and that too in the set time.</p>
+                      </article>
+                      <p><strong>Available In :</strong>  Whole & Powder.</p>
+                    </div>
+
+                  </div>
+                  <div class="panel-footer"></div>
+                </div>
+
+
+                <div class="panel">
+                  <div class="panel-heading">TURMERIC FINGER</div>
+                  <div class="panel-body">
+                    <div class="col-md-5">
+                      <img src="images/turmeric.jpg" class="img-responsive" style="width:100%" alt="Image">
+                    </div>
+                    <div class="col-md-7">
+                      <article>
+                        <h1>TURMERIC FINGER</h1>
+                        <p>Strong industrial base along with a wide area network, we deliver the range in the stipulated time span. Based in Mumbai(India), we hold specialization in offering quality products that are the perfect outcome of premium material and modern manufacturing techniques.</p>
+                      </article>
+                      <p><strong>Available In :</strong>  Whole & Powder.</p>
+                    </div>
+                  </div>
+                  <div class="panel-footer"></div>
+                </div>
+
+              </div>
+            </div>
+
+
+            <div class="row" id ="vegetablesContent" style="display:none;">
+              <div class="col-md-12">
+                <div class="panel">
+                  <div class="panel-heading">VEGETABLES</div>
+                  <div class="panel-body">
+                    <div class="col-md-5">
+                      <img src="images/veggies1.jpg" class="img-responsive" style="width:100%" alt="Image">
+                    </div>
+                    <div class="col-md-7">
+                      <article>
+                        <h1>FRESH VEGETABLES</h1>
+                        <p>Fresh Vegetables that we provide includes numerous varieties that are rich in significant nutrients and highly beneficial for maintaining good health. We source them from vendors who grow these products in a clean and hygienic environment with the cultivation involving no harmful pesticides or chemicals. Our costs are pretty cheap and we offer them in quality packaging that ensures full protection from any sort of damage.</p>
+                      </article>
+                    </div>
+                  </div>
+                  <div class="panel-footer"></div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="row" id ="freshFruitsContent" style="display:none;">
+              <div class="col-md-12">
+                <div class="panel">
+                  <div class="panel-heading">FRESH FRUITS</div>
+                  <div class="panel-body">
+                    <div class="col-md-5">
+                      <img src="images/product_fresh_fruits.jpg" class="img-responsive" style="width:100%" alt="Image">
+                    </div>
+                    <div class="col-md-7">
+                      <article>
+                        <h1>FRESH FRUITS</h1>
+                        <p>We are involved in offering our customers with a vast range of Fresh Fruits. Our product is grown in the best fertile farms and contains no harmful pesticides or added color. Our staff makes them go through a series of quality tests to ensure their rich quality and freshness. Our optimum packaging helps retain the freshness for a longer duration while ensuring an extended shelf life.</p>
+                      </article>
+                    </div>
+                  </div>
+                  <div class="panel-footer"></div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="row" id ="wheatFlourContent" style="display:none;">
+              <div class="col-md-12">
+                <div class="panel">
+                  <div class="panel-heading">WHEAT FLOUR</div>
+                  <div class="panel-body">
+                    <div class="col-md-5">
+                      <img src="images/wheat_flour.jpg" class="img-responsive" style="width:100%" alt="Image">
+                    </div>
+                    <div class="col-md-7">
+                      <article>
+                        <h1>WHEAT FLOUR</h1>
+                        <p>As we have an efficient supply chain network, our company is able to fulfill bulk orders with ease and make deliveries on time. As one of the leading Suppliers, we keep our quality in synchronization with our reputation and offer the best Wheat Flour to the buyers.</p>
+                      </article>
+                    </div>
+                  </div>
+                  <div class="panel-footer"></div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="row" id ="essentialOilContent" style="display:none;">
+              <div class="col-md-12">
+                <div class="panel">
+                  <div class="panel-heading">ESSENTIAL OIL</div>
+                  <div class="panel-body">
+                    <div class="col-md-5">
+                      <img src="images/product_essential_oil.jpg" class="img-responsive" style="width:100%" alt="Image">
+                    </div>
+                    <div class="col-md-7">
+                      <article>
+                        <h1>ESSENTIAL OIL</h1>
+                        <p>Owing to our excellent in-house amenities in Mumbai(India), we deliver huge assortment of products to the customers. We have achieved great heights of success by providing top-notch array of Essential Oil.</p>
+                      </article>
+                    </div>
+                  </div>
+                  <div class="panel-footer"></div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="row" id ="herbalTeaContent" style="display:none;">
+              <div class="col-md-12">
+                <div class="panel">
+                  <div class="panel-heading">HERBAL TEA</div>
+                  <div class="panel-body">
+                    <div class="col-md-5">
+                      <img src="images/product_herbal_tea.jpg" class="img-responsive" style="width:100%" alt="Image">
+                    </div>
+                    <div class="col-md-7">
+                      <article>
+                        <h1>HERBAL TEA</h1>
+                        <p>We are supplier and exporters of a wide range of Loose Assam Tea. Since the day of our inception, we are engaged in supplying Green Tea,Herbal Tea, CTC Tea Black Tea and offering the same at competitive rates. We are a quality centric company, affianced in manufacturing and supplying high quality Loose Tea. Under utmost hygienic climatic conditions, the offered tea is processed by our food experts using advanced techniques and finest grade tea leaves. Our team of quality controller examines this tea against several parameters of quality to ensure its freshness and also is available in safe packaging options. Our wide area network helps us in delivering the products across Mumbai(India) and other markets.</p>
+                      </article>
+                    </div>
+                  </div>
+                  <div class="panel-footer"></div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="row" id ="sugarContent" style="display:none;">
+              <div class="col-md-12">
+                <div class="panel">
+                  <div class="panel-heading">SUGAR</div>
+                  <div class="panel-body">
+                    <div class="col-md-5">
+                      <img src="images/product_sugar.jpg" class="img-responsive" style="width:100%" alt="Image">
+                    </div>
+                    <div class="col-md-7">
+                      <article>
+                        <h1>SUGAR</h1>
+                        <p>The Sugar that we source from extremely trusted vendors and supply worldwide is very popular for its natural sweetness. We import Suger from Brazil. It is an excellent source of carbohydrates and various essential minerals. Our customers can get our product with varied crystal sizes at pocket-friendly prices. Our product matches NSI standards and is available in different grades such as m-31, s-31, 1-30, etc.</p>
+                      </article>
+                    </div>
+                  </div>
+                  <div class="panel-footer"></div>
+                </div>
+              </div>
+            </div>
+          </div>  
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Cancel</button>
+        </div>
+      </div>
+</div>
