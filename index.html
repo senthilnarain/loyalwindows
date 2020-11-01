@@ -7,6 +7,7 @@
   <title>Hard Process Safety</title>
   <link rel="icon" href="images/favicon.ico" type="image/icon">
 
+  <link href="css/owl.carousel.min.css" rel="stylesheet">
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/animate.css" rel="stylesheet">
   
@@ -52,6 +53,15 @@
             // $(".tab").addClass("active"); // instead of this do the below 
             $(this).removeClass("btn-default").addClass("btn-primary");   
         });
+
+        $(".owl-carousel").owlCarousel({
+          items:4,
+          loop:true,
+          margin:10,
+          autoplay:true,
+          autoplayTimeout:2000,
+          autoplayHoverPause:true
+        });
       });
 
     </script>
@@ -94,164 +104,268 @@
   <div id="homeContent"></div>
   <div class="container">
     <div class="row text-center slideanim">
-      <div class="col-lg-3 col-md-3 col-xs-6">
-        <div class="panel">
-          <div class="panel-body">
-            <div class="imageShadow">
-              <img src="images/our_purpose.png" alt="Image" style="width:100%">
-            </div>
+      <div class="col-lg-6 col-md-6">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-xs-6" style="padding-right:0px;">
+            <img src="images/our_purpose.png" style="background:#09212D;" class="img-responsive">
           </div>
-          <div class="panel-footer" style="background:#e54747;color:#fff;">OUR PURPOSE</div>
-        </div>
+          <div class="col-lg-6 col-md-6 col-xs-6" style="padding-left:0px;">
+            <img src="images/our_vision.png" style="background:#e54506;" class="img-responsive">
+          </div>
+        </div>  
+
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-xs-6" style="padding-right:0px;">
+            <img src="images/our_mission.png" style="background:#e54506;" class="img-responsive">
+          </div>
+          <div class="col-lg-6 col-md-6 col-xs-6" style="padding-left:0px;">
+            <img src="images/our_values.png" style="background:#09212D;" class="img-responsive">
+          </div>
+        </div>  
       </div>
-      <div class="col-lg-3 col-md-3 col-xs-6">
-        <div class="panel">
-          <div class="panel-body">
-            <div class="imageShadow">
-              <img src="images/our_vision.png" alt="Image" style="width:100%">
-            </div>
-          </div>
-          <div class="panel-footer" style="background:#f4511e;color:#fff;">OUR VISION</div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-3 col-xs-6">
-        <div class="panel">
-          <div class="panel-body">
-            <div class="imageShadow">
-              <img src="images/our_mission.png" alt="Image" style="width:100%">
-            </div>
-          </div>
-          <div class="panel-footer" style="background:#09212D;color:#fff;">OUR MISSION</div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-3 col-xs-6">
-        <div class="panel">
-          <div class="panel-body">
-            <div class="imageShadow">
-              <img src="images/our_value.png" alt="Image" style="width:100%">
-            </div>
-          </div>
-          <div class="panel-footer" style="background:#4caf50;color:#fff;">OUR VALUES</div>
-        </div>
+      <div class="col-lg-6 col-md-6">
+        <img src="images/pvmv_bg.png" class="img-responsive button pulse" alt="Image" style="width:100%;">
       </div>
     </div>
 </div>
-<div class="container-fluid" style="background:#f6f6f6;">
-  <h2 class="text-center" style="color:black;">NEWS</h2><br>
-    <div class="container" style="padding-top:0px;">
+<div class="container-fluid" id="newsSection">
+  <h2 class="text-center">NEWS</h2><br>
+    <div class="container-fluid">
       <div class="row text-center slideanim">
         <div class="col-lg-6 col-md-6 col-xs-6">
       <div class="panel">
-        <div class="panel-heading mobileViewProductText" style="background:#09212D">GLOBAL NEWS</div>
-        <div class="panel-body">
-            <!-- <img src="images/rice3.jpg" alt="Image" class="img-responsive" style="opacity:0.2;width:100%"> -->
+        <div class="panel-heading mobileViewProductText" style="background:#09212D;color:#f2f8f8;">GLOBAL NEWS</div>
+        <div class="panel-body mobileViewProductText" style="padding:0px;">
+          <div class="btn-group-vertical">
+            <a href="https://globalnews.ca/tag/oil-and-gas/" target="_blank" class="btn btn-primary newsStyle">Global News</a>
+            <a href="https://www.cnbc.com/oil-gas/" target="_blank" class="btn btn-primary newsStyle">CNBC News</a>
+            <a href="https://globalnews.ca/tag/oil-and-gas/" target="_blank" class="btn btn-primary newsStyle">Global News</a>
+            <a href="https://www.cnbc.com/oil-gas/" target="_blank" class="btn btn-primary newsStyle">CNBC News</a>
+            <a href="https://globalnews.ca/tag/oil-and-gas/" target="_blank" class="btn btn-primary newsStyle">Global News</a>
+            <a href="https://www.cnbc.com/oil-gas/" target="_blank" class="btn btn-primary newsStyle">CNBC News</a>
+          </div>
         </div>
       </div>
     </div>
     <div class="col-lg-6 col-md-6 col-xs-6">
       <div class="panel">
-        <div class="panel-heading mobileViewProductText" style="background:#09212D">DOMESTIC NEWS</div>
-        <div class="panel-body">
-          <!-- <img src="images/rice3.jpg" alt="Image" class="img-responsive" style="width:100%"> -->
+        <div class="panel-heading mobileViewProductText" style="background:#09212D;color:#f2f8f8;">DOMESTIC NEWS</div>
+        <div class="panel-body mobileViewProductText" style="padding:0px;">
+          <div class="btn-group-vertical">
+            <a href="https://economictimes.indiatimes.com/topic/domestic-gas" target="_blank" class="btn btn-primary newsStyle">Economic Times</a>
+            <a href="https://www.thehindubusinessline.com/topic/Oil_and_Gas/" target="_blank" class="btn btn-primary newsStyle">Business Line</a>
+            <a href="https://economictimes.indiatimes.com/topic/domestic-gas" target="_blank" class="btn btn-primary newsStyle">Economic Times</a>
+            <a href="https://www.thehindubusinessline.com/topic/Oil_and_Gas/" target="_blank" class="btn btn-primary newsStyle">Business Line</a>
+            <a href="https://economictimes.indiatimes.com/topic/domestic-gas" target="_blank" class="btn btn-primary newsStyle">Economic Times</a>
+            <a href="https://www.thehindubusinessline.com/topic/Oil_and_Gas/" target="_blank" class="btn btn-primary newsStyle">Business Line</a>
+          </div>
         </div>
       </div>
     </div>
-      </div>
-    </div>
+  </div>
+  </div>
 </div>
-<div class="container-fluid" style="background:#f6f6f6;">
-  <h2 class="text-center" style="color:black;">OUR RECENT ACTIVITY</h2><br>
-  <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-      <div class="item active">
-        <h4>"This company is the best. I am so happy with the result!"<br><span>Michael Roe, Vice President, Comment Box</span></h4>
+<div class="container-fluid" style="padding-top:80px;">
+  <h2 class="text-center">RECENT ACTIVITY</h2><br>
+  <div class="row">
+    <div class="col-lg-2 col-md-2 col-xs-1"></div>
+    <div class="col-lg-8 col-md-8 col-xs-10" id="recentactivity">
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-xs-3">
+          <img src="images/image.png" class="img-responsive">
+        </div>
+        <div class="col-lg-9 col-md-9 col-xs-9">
+          <p>After spending more than 25 years in the Oil & Gas industry using process safety as a footnote service, Mr. Arunkumar Arunachalam saw an opportunity to build the process safety consultancy that he believed should exist.</p>
+        </div>
       </div>
-      <div class="item">
-        <h4>"One word... WOW!!"<br><span>John Doe, Salesman, Rep Inc</span></h4>
+      <br>
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-xs-3">
+          <img src="images/image.png" class="img-responsive">
+        </div>
+        <div class="col-lg-9 col-md-9 col-xs-9">
+          <p>After spending more than 25 years in the Oil & Gas industry using process safety as a footnote service, Mr. Arunkumar Arunachalam saw an opportunity to build the process safety consultancy that he believed should exist.</p>
+        </div>
       </div>
-      <div class="item">
-        <h4>"Could I... BE any more happy with this company?"<br><span>Chandler Bing, Actor, FriendsAlot</span></h4>
+      <br>
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-xs-3">
+          <img src="images/image.png" class="img-responsive">
+        </div>
+        <div class="col-lg-9 col-md-9 col-xs-9">
+          <p>After spending more than 25 years in the Oil & Gas industry using process safety as a footnote service, Mr. Arunkumar Arunachalam saw an opportunity to build the process safety consultancy that he believed should exist.</p>
+        </div>
       </div>
     </div>
+    <div class="col-lg-2 col-md-2 col-xs-1"></div>
+  </div>    
+</div>
 
-    <!-- Left and right controls -->
-    <!-- <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a> -->
+<div class="container" id="clientSection">
+  <h2 class="text-center">OUR VALUABLE CLIENTS</h2><br>
+  <div class="owl-carousel">
+    <div class="clientImage">
+      <img src="images/image.png" class="img-responsive">
+    </div>
+    <div class="clientImage">
+      <img src="images/logo.png" class="img-responsive">
+    </div>
+    <div class="clientImage">
+      <img src="images/image.png" class="img-responsive">
+    </div>
+    <div class="clientImage">
+      <img src="images/logo.png" class="img-responsive">
+    </div>
   </div>
 </div>
   <!-- <div class="animate__animated animate__bounceInRight" style="color:#09212D;padding-top:200px;padding-left:20px;">HARD PROCESS SAFETY</div> -->
 </section>
 
 <!-- Container (About Us Section) -->
-<section id="aboutUs" class="container text-center" data-target="#myNavbar" style="display:none;height:100%;margin-top:5%;">
+<div id="aboutUs" class="container-fluid" data-target="#myNavbar" style="display:none;">
   <h3 class="text-center">Consult from Industrial Experts and grow your business</h3><br>
   <p>After spending more than 25 years in the Oil & Gas industry using process safety as a footnote service, Mr. Arunkumar Arunachalam saw an opportunity to build the process safety consultancy that he believed should exist. HARD PS Consultancy is a company with process and technical safety as the primary objective. We are a boutique, privately owned consultancy that delivers a full service integrated solution based on Client requirements.</p>
   <p><em>We have a pool of experts who can advise in all stages of the industrial activities</em></p>
   <br>
-</section>
+  <p>A small brief of some of the key personnel are given below.</p>
+    <div class="row">
+      <div class="col-lg-3 col-md-3 col-xs-6">
+        <div class="panel">
+          <div class="panel-heading panelHeadRemove">
+            <img src="images/avatar.png" class="img-circle img-responsive" alt="Cinque Terre">
+          </div>
+          <div class="panel-body" style="background:#302f2f;">
+            <h3 style="color:#fff;">MANAGER</h3>
+          </div>
+          <div class="panel-footer aboutUsFooterPanel">
+            <p>Ever since an early stage in my life, I have always worked hard to overcome challenges. This in turn influenced my passion for business</p>
+          </div>
+        </div>
+      </div>
 
-<!-- Container (CERTIFICATES Section) -->
-<div id="certificates" class="bg-1" style="display:none;">
-  <div class="container">
-    <h5 class="text-center">CERTIFICATES</h5>
-    <p class="text-center">We are one of the registered leading export and import traders.<br> We export all around the globe!</p>
-    
-    <div class="row text-center">
-      <div class="col-sm-4" data-toggle="modal" data-target="#certificateModal">
-        <div class="thumbnail">
-          <img src="images/certificates.jpg" width="350" height="200">
-          <p><strong>FOOD AUTHORITY</strong></p>
+      <div class="col-lg-3 col-md-3 col-xs-6">
+        <div class="panel">
+          <div class="panel-heading panelHeadRemove">
+            <img src="images/avatar.png" class="img-circle img-responsive" alt="Cinque Terre">
+          </div>
+          <div class="panel-body" style="background:#302f2f;">
+            <h3 style="color:#fff;">MANAGER</h3>
+          </div>
+          <div class="panel-footer aboutUsFooterPanel">
+            <p>Ever since an early stage in my life, I have always worked hard to overcome challenges. This in turn influenced my passion for business</p>
+          </div>
         </div>
       </div>
-      <div class="col-sm-4" data-toggle="modal" data-target="#certificateModal">
-        <div class="thumbnail">
-          <img src="images/certificates.jpg" width="350" height="200">
-          <p><strong>EXPORT AUTHORITY</strong></p>
+
+      <div class="col-lg-3 col-md-3 col-xs-6">
+        <div class="panel">
+          <div class="panel-heading panelHeadRemove">
+            <img src="images/avatar.png" class="img-circle img-responsive" alt="Cinque Terre">
+          </div>
+          <div class="panel-body" style="background:#302f2f;">
+            <h3 style="color:#fff;">MANAGER</h3>
+          </div>
+          <div class="panel-footer aboutUsFooterPanel">
+            <p>Ever since an early stage in my life, I have always worked hard to overcome challenges. This in turn influenced my passion for business</p>
+          </div>
         </div>
       </div>
-      <div class="col-sm-4" data-toggle="modal" data-target="#certificateModal">
-        <div class="thumbnail">
-          <img src="images/certificates.jpg" width="350" height="200">
-          <p><strong>IMPORT AUTHORITY</strong></p>
+
+      <div class="col-lg-3 col-md-3 col-xs-6">
+        <div class="panel">
+          <div class="panel-heading panelHeadRemove">
+            <img src="images/avatar.png" class="img-circle img-responsive" alt="Cinque Terre">
+          </div>
+          <div class="panel-body" style="background:#302f2f;">
+            <h3 style="color:#fff;">MANAGER</h3>
+          </div>
+          <div class="panel-footer aboutUsFooterPanel">
+            <p>Ever since an early stage in my life, I have always worked hard to overcome challenges. This in turn influenced my passion for business</p>
+          </div>
         </div>
       </div>
     </div>
+    <br>
+    <h5 class="text-center">CONNECT WITH US TO KNOW BETTER ABOUT OUR SERVICES !!!</h5>
+</div>
+
+
+<div id="services" class="container-fluid" data-target="#myNavbar" style="display:none;">
+  <div class="row" id="servicesHeaderImg"></div>
+  <br>
+  <h4 class="text-center">We are experts and reliable in the following services.</h4>
+  <br>
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-xs-1"></div>
+    <div class="col-lg-4 col-md-4 col-xs-10">
+      <div class="row" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" onclick="openServicesModal('processHazardAnalysis')">
+        <img src="images/process_analysis.jpg" id="imgHover" class="img-responsive">
+      </div>
+      <br>
+      <div class="row" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)" onclick="openServicesModal('lossPrevention')">
+        <img src="images/loss_prevention.jpg" id="imgHover" class="img-responsive">
+      </div>
+      <br>
+      <div class="row" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" onclick="openServicesModal('inspection')">
+        <img src="images/inspection_img.jpg" id="imgHover" class="img-responsive">
+      </div>
+      <br>
+      <div class="row" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" onclick="openServicesModal('procedures')">
+        <img src="images/procedures_img.jpg" id="imgHover" class="img-responsive">
+      </div>
+      <br>
+      <div class="row" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" onclick="openServicesModal('training')">
+        <img src="images/training_img.jpg" id="imgHover" class="img-responsive">
+      </div>
+      <br>
+    </div>
+    <div class="col-lg-4 col-md-4 col-xs-1"></div>
   </div>
-  
-  <!-- Modal -->
-  <div class="modal fade" id="certificateModal" role="dialog"> 
-    <div class="modal-dialog">
+</div>
+
+<div class="modal fade" id="serviceModal" role="dialog"> 
+  <div class="modal-dialog" style="width:95%;height:90%;">
+    
       <!-- Modal content-->
       <div class="modal-content">
         <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">Ã—</button>
-          <h4><span><img src="images/quality.png"></span> Food Authority</h4>
+          <button type="button" class="close rotateImg" data-dismiss="modal">&times;</button>
+          <h3 class="modal-title">Process Hazard Analysis</h3>
         </div>
-        <div class="modal-body">
-          <embed src="images/certificates.jpg" id="pdfviewer" width="100%" height="90%">
-        </div>
-        <div class="modal-footer">
-          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
-            <span class="glyphicon glyphicon-remove"></span> Cancel
-          </button>
+        <div class="modal-body" style="height:90%;overflow-y:scroll">
+          <h3 class="text-center" style="margin-top:10px;background:gray;color:#fff;">Hazid Process</h3>
+          <div class="row servicesBorderBottom">
+            <div class="col-md-6 col-xs-6">
+              <img src="images/HAZID.jpg" class="img-responsive">
+            </div>
+            <div class="col-md-6 col-xs-6">
+              <p>HAZID study must be carried out during the early stages of a venture and is therefore, the first HSE-related study for any new project. The technique is used for early identification of potential hazards and threats and can be either Conceptual or Detailed. The major benefit of HAZID is that early identification and assessment of the critical HSE hazards provide essential input to project development decisions. This will lead to safer and more cost-effective design options being adopted with a minimum cost of change penalty.</p>
+            </div>
+          </div>
+
+          <h3 class="text-center" style="margin-top:10px;background:gray;color:#fff;">Envid Process</h3>
+          <div class="row servicesBorderBottom">
+            <div class="col-md-6 col-xs-6">
+              <img src="images/ENVID.jpg" class="img-responsive">
+            </div>
+            <div class="col-md-6 col-xs-6">
+              <p>ENVID - Hazard and Environmental Aspects Identification is an essential step in designing the facility. The ENVID review enables to identify environmental aspects that come about due to interaction between the facility and its surroundings to avoid and mitigate their potential impacts.</p>
+            </div>
+          </div>
+
+          <p class="text-center" style="margin-top:10px;background:gray;color:#fff;">Hazop Process</p>
+          <div class="row servicesBorderBottom">
+            <div class="col-md-6 col-xs-6">
+              <img src="images/HAZOP.jpg" class="img-responsive">
+            </div>
+            <div class="col-md-6 col-xs-6">
+              <p>HAZOP - A Hazard and Operability (HAZOP) study is a structured and systematic examination of a process or operation to identify and evaluate problems that may represent risks to personnel or equipment, or environment. HAZOP Study shall be conducted as per IEC 61882 Standard.</p>
+            </div>
+          </div>
         </div>
       </div>
-    </div> 
-  </div>
+      
+    </div>
 </div>
 
 <!-- Container (Contact Section) -->
@@ -299,6 +413,7 @@
   <!-- </a> -->
 </footer>
 
+  <script src="vendor/owl.carousel.min.js"></script>
 </body>
 
 </html>

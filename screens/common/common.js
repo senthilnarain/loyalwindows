@@ -1,49 +1,38 @@
 
-function hideAllProductContents(){
+function hideAllServiceContents(){
 	$('#riceContent').hide();
 	$('#spicesContent').hide();
 	$('#vegetablesContent').hide();
 	$('#freshFruitsContent').hide();
 	$('#wheatFlourContent').hide();
-	$('#essentialOilContent').hide();
-	$('#herbalTeaContent').hide();
-	$('#sugarContent').hide();
 }
-function openProductModal(products){
-	selectedProduct = products;
+function openServicesModal(services){
+	selectedService = services;
 	
-	if(selectedProduct == 'rice'){
-		hideAllProductContents();
+	if(selectedService == 'processHazardAnalysis'){
+		hideAllServiceContents();
 		$('#riceContent').show();
-	}else if(selectedProduct == 'spices'){
-		hideAllProductContents();
+	}else if(selectedService == 'lossPrevention'){
+		hideAllServiceContents();
 		$('#spicesContent').show();
-	}else if(selectedProduct == 'vegetables'){
-		hideAllProductContents();
+	}else if(selectedService == 'inspection'){
+		hideAllServiceContents();
 		$('#vegetablesContent').show();
-	}else if(selectedProduct == 'freshFruits'){
-		hideAllProductContents();
+	}else if(selectedService == 'procedures'){
+		hideAllServiceContents();
 		$('#freshFruitsContent').show();
-	}else if(selectedProduct == 'wheatFlour'){
-		hideAllProductContents();
+	}else if(selectedService == 'training'){
+		hideAllServiceContents();
 		$('#wheatFlourContent').show();
-	}else if(selectedProduct == 'essentialOil'){
-		hideAllProductContents();
-		$('#essentialOilContent').show();
-	}else if(selectedProduct == 'herbalTea'){
-		hideAllProductContents();
-		$('#herbalTeaContent').show();
-	}else if(selectedProduct == 'sugar'){
-		hideAllProductContents();
-		$('#sugarContent').show();
 	}
 	$("#productScrollTopPosition").animate({ scrollTop: 0 }, "slow");
-	$('#product').modal({backdrop: 'static', keyboard: false});
+	$('#serviceModal').modal({backdrop: 'static', keyboard: false});
 }
 
 function hideAllPages(){
 	$('#homePage').hide();
 	$('#aboutUs').hide();
+	$('#services').hide();
 	$('#contact').hide();
 }
 
@@ -51,8 +40,11 @@ function openMenu(page){
 	if(page == 'home'){
 		hideAllPages();
 		$('#homePage').show();
-	} else if(page == 'aboutUs'){
+	}else if(page == 'aboutUs'){
 		hideAllPages();
 		$('#aboutUs').show();
+	}else if(page == 'services'){
+		hideAllPages();
+		$('#services').show();
 	}
 }
