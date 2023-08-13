@@ -45,7 +45,7 @@ function openMenu(page){
 		$('#aboutUs').show();
 	}else if(page == 'services'){
 		hideAllPages();
-		$('#services').show();
+		//$('#services').show();
 	}else if(page == 'contact'){
 		hideAllPages();
 		$('#contact').show();
