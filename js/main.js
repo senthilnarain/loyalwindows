@@ -164,7 +164,7 @@ swatches.forEach(btn => {
 });
 
 // Quote form (static placeholder submit)
-const form = document.getElementById('quoteForm');
+/*const form = document.getElementById('quoteForm');
 const status = document.getElementById('formStatus');
 if (form) {
   form.addEventListener('submit', (e) => {
@@ -173,3 +173,4 @@ if (form) {
     form.reset();
   });
 }
+*/
